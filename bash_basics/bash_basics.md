@@ -24,26 +24,45 @@ if conditionals end with `fi` (`if` backwards)
 #### More options and examples
 
 *Strings*
+
 Operator	            Description
+
 -n string	            Length of string is greater than 0
+
 -z string	            Length of string is 0 (string is an empty string)
+
 string_1 = string_2	  string_1 is equal to string_2
+
 string_1 != string_2	string_1 is not equal to string_2
 
+
 *Integers*
+
 Operator	              Description
+
 integer_1 -eq integer_2	integer_1 is equal to integer_2
+
 integer_1 -ne integer_2	integer_1 is not equal to integer_2
+
 integer_1 -gt integer_2	integer_1 is greater than integer_2
+
 integer_1 -ge integer_2	integer_1 is greater than or equal to integer_2
+
 integer_1 -lt integer_2	integer_1 is less than integer_2
+
 integer_1 -le integer_2	integer_1 is less than or equal to integer_2
 
+
 *Files*
+
 Operator	Description
+
 -e        path/to/file	file exists
+
 -f        path/to/file	file exists and is a regular file (not a directory)
+
 -d        path/to/file	file exists and is a directory
+
 
 #### Loops
 
